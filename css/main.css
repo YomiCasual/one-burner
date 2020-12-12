@@ -656,10 +656,35 @@ footer {
 		padding: 1rem 2rem;
 		widows: 100%;
 	}
-	.navbar-menus {
+	/*.navbar-menus {
 		display: none!important;
+	}*/
+
+	.navbar-menus {
+		display: block;
+		text-align: center;
+		height: 0;
+		overflow: hidden;
+		transition: var(--main-transition)
 	}
-		.navbar-toggler {
+
+	.show {
+		height: 350px
+	}
+
+	.navbar-menus ul li {
+		/*background-color: white!important;*/
+		
+	}
+
+	.navbar-menus ul li a {
+		color: black!important;
+	}
+
+
+
+
+	.navbar-toggler {
 		display: block;
 		padding: 0.5rem 0.7rem;
 		background-color: white;
@@ -861,7 +886,7 @@ footer {
 	}
 
 	.hero- {
-		transform: scale(0.6);
+		transform: scale(0.5);
 		padding: 0!important;
 	}
 
