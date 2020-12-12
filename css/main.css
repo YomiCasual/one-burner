@@ -700,6 +700,13 @@ footer {
 	}
 }
 
+@media (min-width: 500px) and (max-width: 700px) {
+
+	footer > div > div.left-frame.col-sm-12.col-md-12.col-lg-3.col-xl-3 {
+		margin-bottom: 3rem
+	}
+}
+
 @media (min-width: 700px) and (max-width: 1000px) {
 
 	.text-container {
@@ -727,7 +734,7 @@ footer {
 	}
 
 	footer > div > div.left-frame.col-sm-12.col-md-12.col-lg-3.col-xl-3 {
-		margin-bottom: 3rem
+		margin-bottom: 3rem!important
 	}
 	footer .left-frame img {
 		margin: 0 auto!important;
@@ -749,6 +756,7 @@ footer {
 
 	.footer-right-frame {
 		margin-top: 2rem!important;
+		text-align: center;
 	}
 
 	.single-list {
