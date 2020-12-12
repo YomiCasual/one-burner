@@ -12,10 +12,10 @@
 	font-family: 'Poppins'
 }
 
-/*html, body {
+html, body {
 	width: 100%;
 	overflow-x: hidden;
-}*/
+}
 
 body {
 	font-family: 'Poppins', sans-serif!important
@@ -832,9 +832,19 @@ footer {
 }
 
 @media (max-width: 400px) {
-	.header-three {
-		font-size: 30px;
+
+
+	.grid-item {
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))!important
+
 	}
+
+
+
+	.navbar-brand {
+		width: 100px;
+	}
+	
 
 
 	.grid-item {
@@ -847,14 +857,16 @@ footer {
 
 
 	.text-container {
-		padding: 0 1rem;
+		padding: 0 2rem;
 	}
 
 	.hero- {
-		transform: scale(0.4);
+		transform: scale(0.6);
 		padding: 0!important;
 	}
-	.main-padding {
-		padding: 0!important;
-	}
+
+
+	.sub-title {
+		font-size: 10px!important;
+
 }
