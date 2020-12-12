@@ -48,12 +48,13 @@ body {
 .grid-item  {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	height: 50vh!important;
-	grid-gap: 1rem 2rem;
+	height: 100%!important;
+	grid-gap: 1rem;
+
 }
 
-.grid-item:nth-child(1) {
-	min-height: 75vh;
+.main-grid {
+	min-height: 75vh!important;
 }
 
 .grid-item > div {
@@ -439,7 +440,8 @@ ul li a {
 }
 
 .image-container {
-	padding: 0rem!important;
+	padding: 2rem!important;
+	margin: 2rem 0!important;
 	cursor: pointer;
 	transition: var(--main-transition)
 }
@@ -837,7 +839,7 @@ footer {
 
 
 	.image-container {
-		padding: 2rem 3rem
+		padding: 2rem 1rem!important
 	}
 
 	.text-container h3 {
