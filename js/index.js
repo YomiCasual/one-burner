@@ -8,6 +8,5 @@ const navbarMenu = select('.navbar-menus')
 
 
 navIcon.addEventListener('click', () =>{
-	console.log('haha')
 	navbarMenu.classList.toggle('show')
 })

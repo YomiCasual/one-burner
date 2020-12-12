@@ -869,6 +869,60 @@ footer {
 	.navbar-brand {
 		width: 100px;
 	}
+
+
+.first-image {
+	top: -30px;
+	left: -60px;
+}
+.second-image {
+	bottom:  50px;
+	left: -20px;
+}
+
+
+
+.third-image {
+	bottom:  250px;
+	right: -80px;
+}
+
+.third-image .user-image {
+	top: -55%;
+}
+
+.purple-backg {
+	background-color: #A9299F!important
+}
+
+
+
+
+.first-text {
+	top: -20px;
+	right: 10px;
+}
+
+.second-text {
+	top: 150px;
+	right: 120px;
+}
+
+.second-text::before {
+	left: 200px;
+	border-color: transparent transparent transparent #EFCD98!important;
+}
+
+.third-text {
+	bottom: 50px;
+	right: -40px;
+	background-color: var(--secondary-brand-color);
+	color: white;
+}
+
+.third-text::before {
+	border-color: transparent var(--secondary-brand-color) transparent transparent !important 
+}
 	
 
 
@@ -888,6 +942,25 @@ footer {
 	.hero- {
 		transform: scale(0.5);
 		padding: 0!important;
+	}
+
+	.text-width {
+		font-size: 18px!important;
+		padding: 0 1rem;
+		margin: 0 1rem;
+		width: 80%;
+	}
+
+	.text-container {
+		text-align: center
+	}
+
+	.text-container p {
+		margin: 0!important;
+	}
+
+	.customer-support-text {
+		padding: 0 1rem!important
 	}
 
 
